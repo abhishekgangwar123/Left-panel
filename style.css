@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#left-panel {
+    width: 200px;
+    background-color: black;
+    padding: 10px;
+}
+
+#left-panel a {
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    flex: 1;
+    padding: 10px;
+}
+
+#home-content {
+    display: none;
+
+}
+
+#contact-content {
+    display: none;
+}
+
+#info-content {
+    display: none;
+}
+
+#guide-content {
+    display: none;
+}
+
+#left-panel a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
